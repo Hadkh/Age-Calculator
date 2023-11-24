@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Montserrat&family=Poppins:wght@300;400;500&family=Ubuntu&family=Work+Sans:wght@400;500;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; ;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,#82CD47,#379237);
+    padding: 10px;
+    color: #E7B10A;
+    font-size: 15px;
+}
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    background: linear-gradient(to right,#9DB2BF,#DDE6ED);
+    height: 40vh;
+    padding: 10px;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+}
+span{
+    color: black;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#date{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+button{
+    padding: 5px 10px; 
+    border-radius: 10px;
+    font-size: 15px;
+    color: #379237;
+    background-color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: #E7B10A;
+}
+#result{
+    text-align: center;
+    margin-left: 25px;
+    color: black;
+    font-size: 20px;
+}
+
